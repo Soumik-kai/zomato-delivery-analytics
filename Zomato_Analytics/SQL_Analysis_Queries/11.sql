@@ -8,9 +8,9 @@ WITH qty_trend AS (
   WHERE o.r_id IS NOT NULL
   GROUP BY o.r_id, month
 )
-SELECT r.r_id, r.name,
+SELECT r.id, r.name,
        CORR(EXTRACT(EPOCH FROM qt.month), qt.total_quantity) AS qty_trend_score
 FROM qty_trend qt
-JOIN restaurants r ON qt.r_id = r.r_id
-GROUP BY r.r_id, r.name
+JOIN restaurants r ON qt.r_id = r.id
+GROUP BY r.id, r.name
 HAVING CORR(EXTRACT(EPOCH FROM qt.month), qt.total_quantity) IS NOT NULL;

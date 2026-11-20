@@ -6,5 +6,5 @@ WITH monthly_qty AS (
 ), stddevs AS (
   SELECT r_id, STDDEV_POP(total_quantity) AS qty_stddev FROM monthly_qty GROUP BY r_id
 )
-SELECT r.r_id, r.name, s.qty_stddev FROM stddevs s JOIN restaurants r ON s.r_id = r.r_id
+SELECT r.id, r.name, s.qty_stddev FROM stddevs s JOIN restaurants r ON s.r_id = r.id
 WHERE s.qty_stddev IS NOT NULL ORDER BY s.qty_stddev ASC;

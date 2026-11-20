@@ -10,7 +10,7 @@ SELECT
   COUNT(*) AS total_orders,
   SUM(o.sales_amount) AS total_revenue
 FROM orders o
-JOIN restaurants r ON o.r_id = r.r_id
+JOIN restaurants r ON o.r_id = r.id
 WHERE r.rating ~ '^[0-9.]+$'
 GROUP BY rating_tier
 ORDER BY total_revenue DESC;
