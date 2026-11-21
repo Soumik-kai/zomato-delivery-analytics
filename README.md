@@ -1,10 +1,14 @@
-# 🍽️ Zomato Data Analytics – SQL & Power BI Based Business Intelligence Platform
+# 🍽️ Food Delivery Analytics – SQL & Power BI Based Business Intelligence Platform
 
-> **Semester Project – B.Tech CSE (DBMS Course)**  
-> **Academic Year: 2024–2025**  
+> **Internship Project – B.Tech CSE - EG_DA55_NIT BATCH 3**  
+> **Academic Year: 2026**  
 > **Team Members:**  
-> - E034 – Abizer Masavi  
-> - E039 – Arzaan Mulla 
+> 1. Roham Mondal 
+> 2. Ashutosh Kumar 
+> 3. Md gufran 
+> 4. Sayan Ghosh
+> 5. Soumik Guchhait
+> 
 
 ---
 
@@ -35,8 +39,8 @@ The objective was to derive actionable insights into:
 
 ## 🔗 Key Links
 
-- 📂 **GitHub Repository**: https://github.com/abizer007/Zomato_Analytics_Dashboard/tree/main
-- 📊 **Live Power BI Dashboard**: https://abizer007.github.io/Zomato_Analytics_Dashboard/ 
+- 📂 **GitHub Repository**: https://github.com/Soumik-kai/zomato-delivery-analytics
+- 📊 **Live Power BI Dashboard**: https://soumik-kai.github.io/zomato-delivery-analytics/Zomato_Analytics/
 
 ---
 
@@ -116,20 +120,11 @@ To manage our backend database, we used **PostgreSQL** as the primary engine and
 
 
 
-### 1️⃣ Index Page  
-![image](https://github.com/user-attachments/assets/80800781-8b28-4ebc-a84d-a1a46babe014)
+### Page 1: Executive Overview
+![Executive Overview](Zomato_Analytics/images/page1.png)
 
-
-### 2️⃣ Year-wise Sales & User Trends  
-![image](https://github.com/user-attachments/assets/233f466b-7874-4ea6-b058-d57d867ea816)
-
-
-### 3️⃣ User-Wise Performance & Ratings  
-![image](https://github.com/user-attachments/assets/cbed04c3-cb22-4c54-a67c-c03ded75928b)
-
-
-### 4️⃣ City Performance 
-![image](https://github.com/user-attachments/assets/7bd89598-03a3-4f95-93d4-4e60e11dbf0f)
+### Page 2: User & Restaurant Insights
+![User and Restaurant Insights](Zomato_Analytics/images/page2.png)
 
 
 ---
@@ -214,10 +209,10 @@ This repository is ideal for:
 
 ## 👋 Contact
 
-For queries or collaborations, feel free to reach out:
+For queries feel free to reach out:
 
-- **Abizer** – abizer.masavi@gmail.com 
-- **Arzaan** – arzaanm2005@gmail.com
+- **Soumik Guchhait** – soumikguchhait2005@gmail.com
+- 
 
 ---
 
