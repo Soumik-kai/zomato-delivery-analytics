@@ -2,7 +2,7 @@
 -- Calculates yearly total sales per restaurant and identifies the highest sales year for each restaurant.
 WITH SalesByYear AS (
   SELECT EXTRACT(YEAR FROM o.order_date) AS year, o.r_id, r.name AS restaurant_name, SUM(o.sales_amount) AS total_sales
-  FROM orders o JOIN restaurants r ON o.r_id = r.r_id
+  FROM orders o JOIN restaurants r ON o.r_id = r.id
   GROUP BY year, o.r_id, r.name
 ),
 MaxSalesYear AS (
